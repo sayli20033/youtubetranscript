@@ -27,7 +27,7 @@ with st.sidebar:
     st.header("features")
     with st.form("my_form"):
         st.write("Inside the form")
-        st.text_input()
-        st.text_area()
+        st.text_input("text input")
+        st.text_area("text area")
         st.button("submit form")
     
