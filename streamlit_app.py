@@ -25,4 +25,9 @@ st.write("3) Copy and Use: With just a click, the transcript will be copied to y
 
 with st.sidebar:
     st.header("features")
+    with st.form("my_form"):
+        st.write("Inside the form")
+        st.text_input()
+        st.text_area()
+        st.button("submit form")
     
