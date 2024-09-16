@@ -23,3 +23,6 @@ st.write("1)  Using PPAS YouTube Video Summerizer is a breeze. Follow these simp
 st.write("2)  Click Get Detailed Notes: Hit the button, and we will swiftly process the video to produce a text-based transcript")
 st.write("3) Copy and Use: With just a click, the transcript will be copied to your clipboard")
 
+with st.sidebar:
+    st.header("input features")
+    
