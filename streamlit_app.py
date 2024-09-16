@@ -10,7 +10,7 @@ st.markdown("Enter YouTube Video Links:")
 st.button("Get Detailed Notes")
 
 
-st.subheader("1)Why Use YouTube Transcript Summerizer?")
-st.markdown(" Fast And Accurate")
-st.markdown(" Free Of charge")
-st.markdown(" Multilanguage Support")
+st.subheader("Why Use YouTube Transcript Summerizer?")
+st.markdown("    1) Fast And Accurate")
+st.markdown("    2)Free Of charge")
+st.markdown("    3) Multilanguage Support")
