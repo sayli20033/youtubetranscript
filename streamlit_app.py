@@ -33,7 +33,7 @@ with st.sidebar:
 st.feedback("stars")
 
 st.balloons()
-with st.sidebar:("with st.form(key='My Form'):  name=st.text_input("Name") email=st.text_input("E-mail") st.form_submit_button("Sign up")")
+with st.sidebar:("st.form(key='My Form'):  name=st.text_input("Name") email=st.text_input("E-mail") st.form_submit_button("Sign up")")
     
     
 
