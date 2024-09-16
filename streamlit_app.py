@@ -24,5 +24,5 @@ st.write("2)  Click Get Detailed Notes: Hit the button, and we will swiftly proc
 st.write("3) Copy and Use: With just a click, the transcript will be copied to your clipboard")
 
 with st.sidebar:
-    st.header("input features")
+    st.header("features")
     
