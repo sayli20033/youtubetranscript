@@ -34,7 +34,6 @@ st.feedback("stars")
 
 st.balloons()
 with st.sidebar:
-    st.header("sign up")
 with st.form(key='My Form'):
     name=st.text_input("Name")
     email=st.text_input("E-mail")
