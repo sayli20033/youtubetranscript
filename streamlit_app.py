@@ -31,4 +31,7 @@ with st.sidebar:
         #st.text_area("text area")
        # st.button("submit form")
 st.feedback("stars")
+
+color = st.color_picker("Pick A Color", "#00f900")
+st.write("The current color is", color)
     
