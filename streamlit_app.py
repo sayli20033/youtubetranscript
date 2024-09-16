@@ -28,7 +28,7 @@ def extract_transcript_details(youtube_video_url):
         
         transcript_text=YouTubeTranscriptApi.get_transcript(video_id)
 
-               transcript = ""
+        transcript = ""
         for i in transcript_text:
             transcript += " " + i["text"]
 
