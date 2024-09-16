@@ -33,18 +33,14 @@ with st.sidebar:
 st.feedback("stars")
 
 st.balloons()
-
-pages = {
-    "Your account": [
-        st.Page("create_account.py", title="Create your account"),
-        st.Page("manage_account.py", title="Manage your account"),
-    ],
-    "Resources": [
-        st.Page("learn.py", title="Learn about us"),
-        st.Page("trial.py", title="Try it out"),
-    ],
-}
-
-pg = st.navigation(pages)
-pg.run()
+with st.sidebar:
+    st.header("sign up")
+with st.form(key='My Form'):
+    name=st.text_input("Name")
+    email=st.text_input("E-mail")
+    st.form_submit_button("Sign up")
     
+    
+
+
+
