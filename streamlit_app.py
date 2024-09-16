@@ -16,9 +16,9 @@ st.markdown("        2) Free Of charge")
 st.markdown("    3) Multilanguage Support")
 
 st.subheader("How It Works")
-st.write("1. Using PPAS YouTube Video Summerizer is a breeze. Follow these simple steps to
-get your transcript in no time:")
-st.write("2. Click Get Detailed Notes: Hit the button, and we will swiftly process the video to
-produce a text-based transcript.")
-st.write("3. Copy and Use: With just a click, the transcript will be copied to your clipboard.")
+st.write(1. Using PPAS YouTube Video Summerizer is a breeze. Follow these simple steps to
+get your transcript in no time:)
+st.write(2. Click Get Detailed Notes: Hit the button, and we will swiftly process the video to
+produce a text-based transcript.)
+st.write(3. Copy and Use: With just a click, the transcript will be copied to your clipboard.)
 
