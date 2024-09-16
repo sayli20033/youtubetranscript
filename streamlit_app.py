@@ -60,7 +60,7 @@ if youtube_link:
 #thumbnail
     st.image(f"http://img.youtube.com/vi/{video_id}/0.jpg", use_column_width=True)
 
-if st.button("Get Detailed Notes")
+if st.button("Get Detailed Notes"):
   transcript_text=extract_transcript_details(youtube_link)
     if transcript_text:
         summary=generate_gemini_content(transcript_text,prompt)
