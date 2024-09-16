@@ -8,6 +8,9 @@ st.subheader("want to summarize YouTube videos??")
 st.markdown("Enter YouTube Video Links:")
 
 st.button("Get Detailed Notes")
+if youtube_link:
+    video_id = youtube_link.split("=")[1]
+    print(video_id)
 
 
 st.subheader("Why Use YouTube Video Summerizer?")
