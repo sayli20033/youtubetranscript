@@ -14,6 +14,26 @@ if youtube_link:
 if st.button("Get Detailed Notes"):
     transcript_text=extract_transcript_details(youtube_link)
 
+if transcript_text:
+        summary=generate_gemini_content(transcript_text,prompt)
+        st.markdown("## Detailed Notes:")
+        st.write(transcript_text)
+        # st.markdown("## Detailed Notes in Marathi :")
+        # st.write(german)
+        # Fetch the Marathi translation (YouTube Transcript API)
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        german = None
+        for transcript in transcript_list:
+                german = transcript.translate('mr').fetch()
+
+        if german:
+            # Concatenate the Marathi transcript into a single paragraph
+            marathi_text = " ".join([line['text'] for line in german])
+            st.markdown("## Detailed Notes in Marathi:")
+            st.write(marathi_text)
+        else:
+            st.write("Marathi translation not available for this video.")
+
 st.subheader("Why Use YouTube Video Summerizer?")
 st.markdown("    1) Fast And Accurate")
 st.markdown("    2) Free Of charge")
